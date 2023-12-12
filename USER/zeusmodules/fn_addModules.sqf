@@ -303,6 +303,13 @@
 
 
 
+["Evening Light - Hooker", "Spawn Hooker", {
+          params ["_modulePosition"]; 
+          private _position = ASLtoAGL _modulePosition;
+          
+          [_position] remoteExec ["grad_SR_fnc_hooker_spawn", 2];
+     }
+] call zen_custom_modules_fnc_register;
 
 
 

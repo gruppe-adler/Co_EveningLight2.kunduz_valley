@@ -6,6 +6,283 @@
 #define VOLUME 4
 #define DISTANCE 15
 
+// NADIA
+
+
+class nadia_pee
+{
+	name	= "nadia_pee";
+	sound[]	= {"\USER\sounds\nadia_pee.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+
+
+// CONFUSED
+class nadia_confused_1_fear
+{
+	name	= "nadia_confused_1_fear";
+	sound[]	= {"\USER\sounds\nadia_confused_1_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_confused_2_fear
+{
+	name	= "nadia_confused_2_fear";
+	sound[]	= {"\USER\sounds\nadia_confused_2_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_dontknow_1_calm
+{
+	name	= "nadia_dontknow_1_calm";
+	sound[]	= {"\USER\sounds\nadia_dontknow_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_dontknow_1_fear
+{
+	name	= "nadia_dontknow_1_fear";
+	sound[]	= {"\USER\sounds\nadia_dontknow_1_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_dontknow_2_fear
+{
+	name	= "nadia_dontknow_2_fear";
+	sound[]	= {"\USER\sounds\nadia_dontknow_2_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+
+
+// GREET
+class nadia_greet_1_calm
+{
+	name	= "nadia_greet_1_calm";
+	sound[]	= {"\USER\sounds\nadia_greet_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_greet_1_fear
+{
+	name	= "nadia_greet_1_fear";
+	sound[]	= {"\USER\sounds\nadia_greet_1_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_greet_2_fear
+{
+	name	= "nadia_greet_2_fear";
+	sound[]	= {"\USER\sounds\nadia_greet_2_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_greet_3_fear
+{
+	name	= "nadia_greet_3_fear";
+	sound[]	= {"\USER\sounds\nadia_greet_3_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+
+
+// NO
+class nadia_no_1_calm
+{
+	name	= "nadia_no_1_calm";
+	sound[]	= {"\USER\sounds\nadia_no_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_no_1_fear
+{
+	name	= "nadia_no_1_fear";
+	sound[]	= {"\USER\sounds\nadia_no_1_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_no_2_fear
+{
+	name	= "nadia_no_2_fear";
+	sound[]	= {"\USER\sounds\nadia_no_2_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_no_3_fear
+{
+	name	= "nadia_no_3_fear";
+	sound[]	= {"\USER\sounds\nadia_no_3_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_no_4_fear
+{
+	name	= "nadia_no_4_fear";
+	sound[]	= {"\USER\sounds\nadia_no_4_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+// PEE
+class nadia_peeAfter_1_calm
+{
+	name	= "nadia_peeAfter_1_calm";
+	sound[]	= {"\USER\sounds\nadia_peeAfter_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_peeBefore_1_fear
+{
+	name	= "nadia_peeBefore_1_fear";
+	sound[]	= {"\USER\sounds\nadia_peeBefore_1_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_peeBefore_2_fear
+{
+	name	= "nadia_peeBefore_2_fear";
+	sound[]	= {"\USER\sounds\nadia_peeBefore_2_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_peeBefore_3_fear
+{
+	name	= "nadia_peeBefore_3_fear";
+	sound[]	= {"\USER\sounds\nadia_peeBefore_3_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+
+
+class nadia_whatshappening_1_fear
+{
+	name	= "nadia_whatshappening_1_fear";
+	sound[]	= {"\USER\sounds\nadia_whatshappening_1_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_whatshappening_2_fear
+{
+	name	= "nadia_whatshappening_2_fear";
+	sound[]	= {"\USER\sounds\nadia_whatshappening_2_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+
+	
+};
+
+class nadia_yes_1_calm
+{
+	name	= "nadia_yes_1_calm";
+	sound[]	= {"\USER\sounds\nadia_yes_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_2_calm
+{
+	name	= "nadia_yes_2_calm";
+	sound[]	= {"\USER\sounds\nadia_yes_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_3_calm
+{
+	name	= "nadia_yes_3_calm";
+	sound[]	= {"\USER\sounds\nadia_yes_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_4_calm
+{
+	name	= "nadia_yes_4_calm";
+	sound[]	= {"\USER\sounds\nadia_yes_1_calm.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+
+class nadia_yes_1_fear
+{
+	name	= "nadia_yes_1_fear";
+	sound[]	= {"\USER\sounds\nadia_yes_1_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_2_fear
+{
+	name	= "nadia_yes_2_fear";
+	sound[]	= {"\USER\sounds\nadia_yes_2_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_3_fear
+{
+	name	= "nadia_yes_3_fear";
+	sound[]	= {"\USER\sounds\nadia_yes_3_fear.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_4_fear
+{
+	name	= "nadia_yes_4_fear";
+	sound[]	= {"\USER\sounds\nadia_yes_4_fear.ogg", db + 10, 1.0 };
+	titles[] = {};	
+};
+
+class nadia_yes_1_seduce
+{
+	name	= "nadia_yes_1_seduce";
+	sound[]	= {"\USER\sounds\nadia_yes_1_seduce.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_2_seduce
+{
+	name	= "nadia_yes_2_seduce";
+	sound[]	= {"\USER\sounds\nadia_yes_1_seduce.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_3_seduce
+{
+	name	= "nadia_yes_3_seduce";
+	sound[]	= {"\USER\sounds\nadia_yes_1_seduce.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+class nadia_yes_4_seduce
+{
+	name	= "nadia_yes_4_seduce";
+	sound[]	= {"\USER\sounds\nadia_yes_1_seduce.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+
+
 
 class yell1_muffled
 {

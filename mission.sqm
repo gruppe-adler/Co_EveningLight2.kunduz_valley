@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1619;
+		nextID=1790;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=282;
+		nextID=296;
 	};
 	class Camera
 	{
-		pos[]={3402.8677,36.697933,6776.3911};
-		dir[]={-0.78869903,-0.18220684,0.58718669};
-		up[]={-0.14616014,0.98325872,0.10881507};
-		aside[]={0.59718263,1.2636883e-007,0.80212694};
+		pos[]={8937.7539,59.092903,5525.2334};
+		dir[]={0.69164377,-0.60436022,-0.39544627};
+		up[]={0.52465934,0.79671115,-0.29997319};
+		aside[]={-0.49634832,-1.4901161e-008,-0.86812353};
 	};
 };
 binarizationWanted=0;
@@ -38,13 +38,17 @@ addons[]=
 	"ace_nouniformrestrictions",
 	"A3_Ui_F",
 	"RHS_US_A2_AirImport",
-	"Desert"
+	"Desert",
+	"RHS_US_A2Port_Armor",
+	"ace_compat_rhs_usf3",
+	"A3_Structures_F_Mil_BagFence",
+	"A3_Structures_F_Mil_BagBunker"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=12;
 		class Item0
 		{
 			className="A3_Modules_F_Heli";
@@ -105,6 +109,27 @@ class AddonsMetaData
 		{
 			className="Desert";
 			name="Desert";
+		};
+		class Item9
+		{
+			className="RHS_US_A2Port_Armor";
+			name="M2 Bradley IFV";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item10
+		{
+			className="ace_compat_rhs_usf3";
+			name="ACE3 - RHS USAF Compatibility";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item11
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -4177,7 +4202,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=13;
+		items=19;
 		class Item0
 		{
 			dataType="Layer";
@@ -6447,7 +6472,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1420.6593,37.665806,8502.8975};
-				angles[]={-0,2.3681834,0};
+				angles[]={0,2.3681834,0};
 			};
 			side="Empty";
 			flags=4;
@@ -6537,6 +6562,96 @@ class Mission
 			title="cave 4";
 			id=1618;
 			atlOffset=0.00024986267;
+		};
+		class Item13
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1505.7151,36.744709,8489.1465};
+				angles[]={-0,5.5001464,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				reportOwnPosition=1;
+			};
+			id=1620;
+			type="RHS_M6";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1510.1201,36.744709,8494.3252};
+				angles[]={-0,5.4643149,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				reportOwnPosition=1;
+			};
+			id=1623;
+			type="RHS_M2A3";
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1514.6719,36.744709,8498.7139};
+				angles[]={-0,5.3846288,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				reportOwnPosition=1;
+			};
+			id=1624;
+			type="RHS_M2A2";
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8948.7363,32.09486,5503.6025};
+				angles[]={0.059928458,3.5287137,0.23932354};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1629;
+			type="Land_BagFence_Round_F";
+		};
+		class Item17
+		{
+			dataType="Layer";
+			name="Bunker (Small) #B1";
+			id=1769;
+			atlOffset=-140.23;
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8923.502,43.75563,5454.1177};
+				angles[]={-0,2.0271449,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1789;
+			type="Land_BagBunker_Small_F";
 		};
 	};
 	class Connections

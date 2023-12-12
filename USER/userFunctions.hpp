@@ -9,3 +9,11 @@
 #include "intro\cfgFunctions.hpp"
 #include "zeusmodules\cfgFunctions.hpp"
 #include "ambient\cfgFunctions.hpp"
+
+class GRAD_SilentRain {
+	tag = "grad_SR";
+	
+	#include "functions\hooker\cfgFunctions.hpp"
+	#include "functions\custominteractions\CfgFunctions.hpp"
+
+};
