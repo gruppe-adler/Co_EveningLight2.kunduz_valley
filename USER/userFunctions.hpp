@@ -15,5 +15,6 @@ class GRAD_SilentRain {
 	
 	#include "functions\hooker\cfgFunctions.hpp"
 	#include "functions\custominteractions\CfgFunctions.hpp"
+	#include "functions\defuseStickHandling\CfgFunctions.hpp"
 
 };
