@@ -1,4 +1,4 @@
-class grad_hooker {
+class grad_defuseStickHandling {
 	file = "USER\functions\defuseStickHandling";
 
 	tag = "grad_SR";

@@ -7,16 +7,17 @@ if (hasInterface) then {
 
 
 	grad_defuseStickHandling_attach = {
-		private _stick = (player getVariable ["grad_defuseStickAttached", objNull];
+		private _stick = (player getVariable ["grad_defuseStickAttached", objNull]);
 		if (isNull _stick) then {
-			_stick = createSimpleObject ["", position player, false];
+			_stick = createSimpleObject ["\z\ace\addons\minedetector\ace_wallon_vmh3.p3d", getposasl player, false];
 		};
-		_stick attachTo [player, [0,0,0], "spine", true];
-		_stick setVectorDirAndUp [[0,0,0], [0,0,0]];
+		 _stick attachTo [player, [0,-.1,-.5], "Spine3", true];
+		_stick setVectorDirAndUp [[0,1,0], [1,0,0]]; 
+		player setVariable ["grad_defuseStickAttached", _stick];
 	};
 
 	grad_defuseStickHandling_detach = {
-		private _stick = (player getVariable ["grad_defuseStickAttached", objNull];
+		private _stick = (player getVariable ["grad_defuseStickAttached", objNull]);
 		if (!isNull _stick) then {
 			deleteVehicle _stick;
 		};
@@ -25,23 +26,26 @@ if (hasInterface) then {
 
 	["loadout", {
 		// do nothing if player still has classname
-		if (player hasWeapon "classname") exitWith {};
+		if (player hasWeapon "ACE_VMH3") exitWith {};
 
 		// remove stick if its there, e.g. player dropped secondary
-		private _stick = (player getVariable ["grad_defuseStickAttached", objNull];
+		private _stick = (player getVariable ["grad_defuseStickAttached", objNull]);
 		if (!isNull _stick) then {
 			call grad_defuseStickHandling_detach;
+			systemchat "loadout detach";
 		};
 
 	}] call CBA_fnc_addPlayerEventHandler;
 
 	["weapon", {
 		// only do work if player owns item
-		if (player hasWeapon "classname") then {
-			if (currentWeapon player == "classname") then {
-				call grad_defuseStickHandling_attach;
-			} else {
+		if (player hasWeapon "ACE_VMH3") then {
+			if (currentWeapon player == "ACE_VMH3") then {
 				call grad_defuseStickHandling_detach;
+				systemchat "weapon detach";
+			} else {
+				call grad_defuseStickHandling_attach;
+				systemchat "weapon attach";	
 			};
 		};
 	}] call CBA_fnc_addPlayerEventHandler;

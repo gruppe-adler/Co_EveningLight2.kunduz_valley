@@ -37,7 +37,19 @@ if (isServer) then {
         private _unit = (_this select 0);
         
         if (side _unit == east) then {
-            _unit addGoggles "CUP_Beard_Black";
+            private _array = [
+                "Max_Tak_woman1",
+                "Max_Tak_woman2",
+                "Max_Tak_woman3",
+                "Max_Tak_woman4",
+                "Max_Tak_woman5",
+                "Max_Tak_woman6"
+
+            ];
+            // dont add beards to women
+            if (!(typeOf _unit in _array)) then {
+                _unit addGoggles "CUP_Beard_Black";
+            };
         };
 
         if ((side _unit) != west) then {

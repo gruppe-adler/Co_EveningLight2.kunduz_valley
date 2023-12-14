@@ -311,6 +311,27 @@
      }
 ] call zen_custom_modules_fnc_register;
 
+["Evening Light - Abu Ben Zeen", "Spawn Abu", {
+          params ["_modulePosition"]; 
+          private _position = ASLtoAGL _modulePosition;
+          
+          [_position] remoteExec ["grad_zeusmodules_fnc_createAbuBenZeen", 2];
+     }
+] call zen_custom_modules_fnc_register;
+
+["Evening Light - IED Workshop", "Spawn IED Truck", {
+          params ["_modulePosition"]; 
+          
+          [] remoteExec ["grad_zeusmodules_fnc_spawnIEDtruck", 2];
+     }
+] call zen_custom_modules_fnc_register;
+
+["Evening Light - IED Workshop", "Spawn Defender Group", {
+          params ["_modulePosition"]; 
+          
+          [] remoteExec ["grad_zeusmodules_fnc_createGroupIEDworkshop", 2];
+     }
+] call zen_custom_modules_fnc_register;
 
 
 
