@@ -3,6 +3,8 @@ class grad_powerline {
 
 	tag = "grad_SR";
 
-	class autoInit { postInit = 1; };
-	class createPowerLine;
+	class powerline_createPowerLine;
+	class powerline_autoInit { postInit = 1; };
+	class powerline_earthQuake;
+	class powerline_rockshower;
 };

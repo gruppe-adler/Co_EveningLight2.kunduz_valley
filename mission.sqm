@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=3296;
+		nextID=3304;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=370;
+		nextID=391;
 	};
 	class Camera
 	{
-		pos[]={3226.4612,26.421944,6913.8711};
-		dir[]={0.37443936,-0.6279465,-0.68235075};
-		up[]={0.30210143,0.77822691,-0.55052674};
-		aside[]={-0.87673253,-3.9975566e-007,-0.48110703};
+		pos[]={3313.6956,37.206524,6808.1377};
+		dir[]={-0.49755761,-0.57629526,0.64847207};
+		up[]={-0.3508248,0.81721878,0.45723265};
+		aside[]={0.79345036,2.4863111e-006,0.60879403};
 	};
 };
 binarizationWanted=0;
@@ -116,14 +116,13 @@ addons[]=
 	"A3_Props_F_Enoch_Military_Decontamination",
 	"A3_Props_F_Enoch_Military_Camps",
 	"A3_Structures_F_EPA_Items_Food",
-	"ace_intelitems",
 	"A3_Structures_F_Items_Stationery"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=68;
+		items=67;
 		class Item0
 		{
 			className="A3_Modules_F_Heli";
@@ -560,13 +559,6 @@ class AddonsMetaData
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
-		};
-		class Item67
-		{
-			className="ace_intelitems";
-			name="ACE3 - Intel Items";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
 		};
 	};
 };
@@ -14635,7 +14627,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="/topsecret/abu/note.txt";
+							value="/topsecret/note.txt";
 						};
 					};
 				};
@@ -15817,51 +15809,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3221.9282,23.861069,6905.9355};
-				angles[]={0,1.8443495,0};
+				position[]={3222.0601,23.857885,6906};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				dynamicSimulation=1;
-			};
-			id=3288;
-			type="acex_intelitems_notepad";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_intelitems_data";
-					expression="[_this, _value] call ace_intelitems_fnc_setObjectData";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="remember: ANALADMIN / 1337 . its so simple!!!!!!1111";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item326
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3221.9202,23.857885,6905.9565};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
+				init="if (isServer) then { [position this, random 360, ""The son of a bitch changed the login again, now its <analadmin> and the pw is <1337>. Why? I have no idea. He likes to play stupid games."", [""somewhat"",[""cramped"",""EtelkaNarrowMediumPro""]]] call GRAD_leaveNotes_fnc_spawnNote; };";
 			};
 			id=3289;
 			type="Land_PenBlack_F";
 		};
-		class Item327
+		class Item326
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -15959,7 +15918,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="/topsecret/abu";
+							value="/topsecret";
 						};
 					};
 				};
@@ -15979,7 +15938,7 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item328
+		class Item327
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -16064,7 +16023,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="/topsecret/abu/bookmarks.txt";
+							value="/topsecret/bookmarks.txt";
 						};
 					};
 				};
@@ -16162,7 +16121,7 @@ class Mission
 				nAttributes=13;
 			};
 		};
-		class Item329
+		class Item328
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -16173,7 +16132,7 @@ class Mission
 			id=3292;
 			type="Logic";
 		};
-		class Item330
+		class Item329
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -16184,7 +16143,7 @@ class Mission
 			id=3293;
 			type="Logic";
 		};
-		class Item331
+		class Item330
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -16195,7 +16154,7 @@ class Mission
 			id=3294;
 			type="Logic";
 		};
-		class Item332
+		class Item331
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -16206,16 +16165,199 @@ class Mission
 			id=3295;
 			type="Logic";
 		};
+		class Item332
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3228.6589,23.85,6909.689};
+			};
+			id=3296;
+			type="AE3_AddFile";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="AE3_Module_AddFile_Owner";
+					expression="_this setVariable ['AE3_Module_AddFile_Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="root";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="AE3_Module_AddFile_EveryoneWrite";
+					expression="_this setVariable ['AE3_Module_AddFile_EveryoneWrite',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="AE3_Module_AddFile_EveryoneRead";
+					expression="_this setVariable ['AE3_Module_AddFile_EveryoneRead',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="AE3_Module_AddFile_OwnerWrite";
+					expression="_this setVariable ['AE3_Module_AddFile_OwnerWrite',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="AE3_Module_AddFile_OwnerExecute";
+					expression="_this setVariable ['AE3_Module_AddFile_OwnerExecute',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="AE3_Module_AddFile_Path";
+					expression="_this setVariable ['AE3_Module_AddFile_Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="/topsecret/selfdestruct.bat";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="AE3_Module_AddFile_IsCode";
+					expression="_this setVariable ['AE3_Module_AddFile_IsCode',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="AE3_Module_AddFile_EveryoneExecute";
+					expression="_this setVariable ['AE3_Module_AddFile_EveryoneExecute',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="AE3_Module_AddFile_OwnerRead";
+					expression="_this setVariable ['AE3_Module_AddFile_OwnerRead',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="AE3_Module_AddFile_Content";
+					expression="_this setVariable [""AE3_Module_AddFile_Content"", _value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="params[""_computer"", ""_options"", ""_commandName""];  " \n " " \n "[_computer, [""ied_countdown"", 200]] remoteExec [""say3d"", 0, _computer];  " \n "_computer setVariable [""AE3_power_powerState"", 0, true]; " \n " " \n "_computer setObjectTextureGlobal [1, ""data\selfdestruct.paa""]; " \n " " \n " private _display = (findDisplay 15985);  " \n "  " \n " if (!isNull _display) then {  " \n "    private _ctrl = _display displayCtrl 2000;  " \n " " \n "    _display closeDisplay 1; " \n "}; " \n " " \n "[{  ""Bo_GBU12_LGB"" createVehicle (_this); }, position _computer, 65] call CBA_fnc_waitAndExecute;";
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="AE3_Module_AddFile_EncryptionKey";
+					expression="_this setVariable ['AE3_Module_AddFile_EncryptionKey',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="13";
+						};
+					};
+				};
+				class Attribute11
+				{
+					property="AE3_Module_AddFile_EncryptionAlgorithm";
+					expression="_this setVariable ['AE3_Module_AddFile_EncryptionAlgorithm',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="caesar";
+						};
+					};
+				};
+				class Attribute12
+				{
+					property="AE3_Module_AddFile_IsEncrypted";
+					expression="_this setVariable ['AE3_Module_AddFile_IsEncrypted',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=13;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=50;
+			nextID=51;
 		};
 		class Links
 		{
-			items=50;
+			items=51;
 			class Item0
 			{
 				linkID=0;
@@ -16711,6 +16853,16 @@ class Mission
 				linkID=49;
 				item0=3295;
 				item1=2975;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item50
+			{
+				linkID=50;
+				item0=3296;
+				item1=3251;
 				class CustomData
 				{
 					type="Sync";

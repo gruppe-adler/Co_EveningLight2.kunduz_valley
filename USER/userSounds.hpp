@@ -6,9 +6,14 @@
 #define VOLUME 4
 #define DISTANCE 15
 
+class ied_countdown
+{
+	name	= "ied_countdown";
+	sound[]	= {"\USER\sounds\countdown.ogg", db + 10, 1.0 };
+	titles[] = {};
+};
+
 // NADIA
-
-
 class nadia_pee
 {
 	name	= "nadia_pee";

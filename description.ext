@@ -45,6 +45,7 @@ class missionSettings {
 	};
 };
 
+#include "node_modules\grad-leaveNotes\grad_leaveNotes.hpp"
 
 //FUNCTIONS ====================================================================
 class CfgFunctions
@@ -61,6 +62,7 @@ class CfgFunctions
     #include "node_modules\grad-loadout\cfgFunctions.hpp"
 	#include "node_modules\grad-fortifications\cfgFunctions.hpp"
 	#include "node_modules\grad-introcam\cfgFunctions.hpp"
+    #include "node_modules\grad-leaveNotes\cfgFunctions.hpp"
 
 	#include "USER\userFunctions.hpp"
 };
@@ -95,6 +97,16 @@ class CfgNotifications
 	#include "USER\userNotifications.hpp"
 };
 
+class GRAD_leaveNotes {
+    playerDistance = 1;             
+    actOffset[] = {0,0,0.1};        
+    actDist = 2;                    
+    noteObject = "Land_Notepad_F";  
+    startAmount = 10;               
+    visibleHandwriting = 1;         
+    canWriteDefault = 1;            
+    canInspectDefault = 1;          
+};
 
 //PARAMS =======================================================================
 class Params {
@@ -105,6 +117,7 @@ class Params {
 //SOUNDS =======================================================================
 class CfgSounds {
 	#include "USER\userSounds.hpp"
+    #include "node_modules\grad-leaveNotes\cfgSounds.hpp"
 };
 
 //MUSIC =======================================================================
