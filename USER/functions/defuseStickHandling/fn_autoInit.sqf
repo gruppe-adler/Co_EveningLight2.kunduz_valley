@@ -32,7 +32,7 @@ if (hasInterface) then {
 		private _stick = (player getVariable ["grad_defuseStickAttached", objNull]);
 		if (!isNull _stick) then {
 			call grad_defuseStickHandling_detach;
-			systemchat "loadout detach";
+			// systemchat "loadout detach";
 		};
 
 	}] call CBA_fnc_addPlayerEventHandler;
@@ -42,10 +42,10 @@ if (hasInterface) then {
 		if (player hasWeapon "ACE_VMH3") then {
 			if (currentWeapon player == "ACE_VMH3") then {
 				call grad_defuseStickHandling_detach;
-				systemchat "weapon detach";
+				// systemchat "weapon detach";
 			} else {
 				call grad_defuseStickHandling_attach;
-				systemchat "weapon attach";	
+				// systemchat "weapon attach";	
 			};
 		};
 	}] call CBA_fnc_addPlayerEventHandler;

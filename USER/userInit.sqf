@@ -34,9 +34,9 @@ if (hasInterface) then {
         !isNil "mrk_objective4_active"
     }, {
         private _markers = _this;
-        {
-            mrk_objective4_1 setMarkerAlphaLocal 1;
-            mrk_objective4_2 setMarkerAlphaLocal 0.2;
+        
+        "mrk_objective4_1" setMarkerAlphaLocal 1;
+        "mrk_objective4_2" setMarkerAlphaLocal 0.2;
     }, []] call CBA_fnc_waitUntilAndExecute;
 
 
