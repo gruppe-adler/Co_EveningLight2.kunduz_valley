@@ -15,9 +15,11 @@ closeDialog 1;
  _rock setPos [3236.11,6907.6,1.9]; 
  
  [ 
-  [3261.37,6875.15,0], 
-  [3290.01,6846.29,0], 
-  [3246.89,6902.12,0] 
+  [
+	[3261.37,6875.15,0], 
+  	[3290.01,6846.29,0], 
+  	[3246.89,6902.12,0] 
+  ]
  ] remoteExec ["grad_sr_fnc_powerline_rockshower"]; 
 }, position _computer, 65] call CBA_fnc_waitAndExecute; 
  
