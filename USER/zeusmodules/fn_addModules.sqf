@@ -319,6 +319,24 @@
      }
 ] call zen_custom_modules_fnc_register;
 
+["Evening Light - Objectivemarker", "Show Objective 2 (Taliban FOB)", {
+          params ["_modulePosition"]; 
+          private _position = ASLtoAGL _modulePosition;
+          
+          mrk_objective3_active = true;
+          publicVariable "mrk_objective3_active";
+     }
+] call zen_custom_modules_fnc_register;
+
+["Evening Light - Objectivemarker", "Show Objective 3 (Ben Zeen)", {
+          params ["_modulePosition"]; 
+          private _position = ASLtoAGL _modulePosition;
+          
+          mrk_objective4_active = true;
+          publicVariable "mrk_objective4_active";
+     }
+] call zen_custom_modules_fnc_register;
+
 ["Evening Light - IED Workshop", "Spawn IED Truck", {
           params ["_modulePosition"]; 
           

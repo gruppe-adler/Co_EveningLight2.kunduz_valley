@@ -23,5 +23,6 @@ _computer setObjectTextureGlobal [1, "data\selfdestruct.paa"];
 		[3290.01,6846.29,0],
 		[3246.89,6902.12,0]
 	] remoteExec ["grad_sr_fnc_powerline_rockshower"];
+	[] remoteExec ["grad_sr_fnc_powerline_earthquake"];
 }, position _computer, 65] call CBA_fnc_waitAndExecute;
 
