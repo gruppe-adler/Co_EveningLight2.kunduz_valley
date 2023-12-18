@@ -55,14 +55,14 @@
   } forEach allCurators;
 };
 
-["Evening Light - Enemies Cloaked", "Reinforcements North Squad", {
+["Evening Light - Enemies Cloaked", "Reinforcements Squad", {
      params ["_position", "_object"];
      
      ["squad", true, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];
      
 }] call zen_custom_modules_fnc_register;
 
-["Evening Light - Enemies Open", "Reinforcements North Squad", {
+["Evening Light - Enemies Open", "Reinforcements Squad", {
      params ["_position", "_object"];
      
      ["squad", false, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];
@@ -70,14 +70,14 @@
 }] call zen_custom_modules_fnc_register;
 
 
-["Evening Light - Enemies Cloaked", "Reinforcements North Fireteam", {
+["Evening Light - Enemies Cloaked", "Reinforcements Fireteam", {
      params ["_position", "_object"];
      
      ["fireteam", true, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];
      
 }] call zen_custom_modules_fnc_register;
 
-["Evening Light - Enemies Open", "Reinforcements North Fireteam", {
+["Evening Light - Enemies Open", "Reinforcements Fireteam", {
      params ["_position", "_object"];
      
      ["fireteam", false, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];
@@ -85,14 +85,14 @@
 }] call zen_custom_modules_fnc_register;
 
 
-["Evening Light - Enemies Cloaked", "Reinforcements North specialteam", {
+["Evening Light - Enemies Cloaked", "Reinforcements specialteam", {
      params ["_position", "_object"];
      
      ["specialteam", true, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];
      
 }] call zen_custom_modules_fnc_register;
 
-["Evening Light - Enemies Open", "Reinforcements North specialteam", {
+["Evening Light - Enemies Open", "Reinforcements specialteam", {
      params ["_position", "_object"];
      
      ["specialteam", false, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];
@@ -100,14 +100,14 @@
 }] call zen_custom_modules_fnc_register;
 
 
-["Evening Light - Enemies Cloaked", "Reinforcements North heavy", {
+["Evening Light - Enemies Cloaked", "Reinforcements heavy", {
      params ["_position", "_object"];
      
      ["heavy", true, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];
      
 }] call zen_custom_modules_fnc_register;
 
-["Evening Light - Enemies Open", "Reinforcements North heavy", {
+["Evening Light - Enemies Open", "Reinforcements heavy", {
      params ["_position", "_object"];
      
      ["heavy", false, ASLtoAGL _position] remoteExec ["grad_zeusmodules_fnc_reinforcements", 2];

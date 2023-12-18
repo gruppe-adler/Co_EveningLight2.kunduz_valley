@@ -18,5 +18,3 @@ private _group = createGroup east;
     private _unit = _group createUnit [_x, [0,0,0], [], 0, "NONE"];
     _unit moveInAny _vehicle;
 } forEach _units;
-
-(driver _vehicle) addWaypoint [[worldsize/2, worldsize/2], 0];
