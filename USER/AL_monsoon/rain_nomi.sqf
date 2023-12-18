@@ -61,25 +61,14 @@ grad_rain_fnc_mainLoop = {
 	_fadeTime setWindStr 5;
 	_fadeTime setWindDir _direction;
 	_fadeTime setRain 1;
-	
-	setTimeMultiplier 60;
-
-	diag_log "setting time multiplier to 60 to raise tides";
 
 	[	{ rain > 0.3 },
 		{ 
-			call grad_rain_fnc_raiseWater;
 			_this setLightnings 1;
 		[] remoteExec ["grad_rain_fnc_initLocalEffects"]; },
 		_fadeTime
 	] call CBA_fnc_waitUntilAndExecute;
 
-	[{
-		getTerrainInfo#4 > 2.5
-	}, {
-		setTimeMultiplier 1;
-		diag_log "setting time multiplier to 1, high tide reached";
-	}] call CBA_fnc_waitUntilAndExecute;
 
 
 	[{
@@ -140,73 +129,9 @@ grad_rain_fnc_mainLoop = {
 };
 
 
-grad_rain_fnc_raiseWater = {
-
-	private _bridges = [worldsize/2,worldsize/2] nearObjects ["Jbad_Bridge_Wood_long", worldsize/2];
-	{ deleteVehicle _x; } forEach _bridges;
-
-	private _planks = [worldsize/2,worldsize/2] nearObjects ["Land_Plank_01_8m_F", worldsize/2];
-	{ deleteVehicle _x; } forEach _planks;
-	
-};
-
-grad_rain_fnc_streamfX = {
-	private _streamHelper = [worldsize/2,worldsize/2] nearObjects ["Sign_Arrow_Direction_F", worldsize/2];
-	{ 
-		private _type = selectRandom ["Land_Garbage_square5_F", "MedicalGarbage_01_5x5_v1_F"];
-		grad_debris = true;
-
-		private _posX = getPos _x select 0;
-		private _posY = getPos _x select 1;
-
-		private _debris = _type createVehicleLocal [_posX, _posY, 0];
-		_debris enableSimulation false;
-		_debris setPosASL [_posX, _posY, getTerrainInfo#4 ]; // necessary
-		_debris setDir (random 360);
-
-		[{
-			params ["_args", "_handle"];
-			_args params ["_debris", "_posX", "_posY"];
-
-			if (!grad_debris) exitWith {
-				[_handle] call CBA_fnc_removePerFrameHandler;
-				deleteVehicle _debris;
-			};
-
-			// slowly rotate to give at least some visual eye candy
-			_debris setPosASL [_posX, _posY, getTerrainInfo#4];
-			_debris setDir ((getDir _debris) + 0.05);
-		}, 0.01, [_debris, _posX, _posY]] call CBA_fnc_addPerFrameHandler;
-
-		/*
-		private _pos = getPos _x;
-		private _dir = getDir _x;
-		private _pressure = 5;
-		private _start_size = 3;
-		private _end_size = 3;
-		private _part_def = [[0,[0,0,0]],[0.5,[0.1,0.1,0.1],[0,0,0],5,0.1,[0,0,0,0],0.01,0,0]];
-
-		private _flow = (getposasl _x vectorFromTo (_x getRelPos [10,0])) vectorMultiply _pressure;
-
-		private _waterFX2 = "#particlesource" createVehicleLocal (_pos);
-		_waterFX2 setPosASL [_pos#0, _pos#1, grad_rain_waterHeight];
-		_waterFX2 setParticleCircle _part_def # 0;
-		_waterFX2 setParticleRandom _part_def # 1;
-		_waterFX2 setParticleParams [[ "\A3\data_f\ParticleEffects\Universal\Refract",1,0,1],"","Billboard",1,3,[0,0,0],[_flow select 0,_flow select 1,7],15,1050,7.9,0,[_start_size,_end_size],[[0,0,0,0],[0.80,0.90,1,0.5],[0,0,0,0]],[1],0,0,"","",_x];
-		_waterFX2 setDropInterval 0.05;
-		*/
-	
-		// [{ !grad_rain_active }, { params ["_waterFX1", "_waterFX2", "_waterFX3"]; { deleteVehicle _x; } forEach [_waterFX1, _waterFX2, _waterFX3]; }, [_waterFX1, _waterFX2, _waterFX3]] call CBA_fnc_waitUntilAndExecute;
-
-	} forEach _streamHelper;
-};
-
-
-
 grad_rain_fnc_initLocalEffects = {
 	[] call grad_rain_fnc_loopLocal;
 	[] call grad_rain_fnc_drops;
-	[] call grad_rain_fnc_streamfX;
 	[true, true] call grad_rain_fnc_debris;
 };
 

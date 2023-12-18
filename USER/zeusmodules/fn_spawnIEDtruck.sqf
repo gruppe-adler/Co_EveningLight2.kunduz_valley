@@ -1,13 +1,14 @@
-private _spawnposition = [3284.49,6859.4,0];
+params ["_position"];
 
-private _nearestObject = nearestObject _spawnposition;
+private _nearestObject = nearestObject _position;
 if (!isNull (_nearestObject)) then {
-	if (_nearestObject distance _spawnposition < 3) then {
+	if (_nearestObject distance _position < 3) then {
 
 	private _ural = "gm_gc_civ_ural375d_cargo" createVehicle [0,0,0];
 	_ural setVehicleLock "unlocked";
-	_ural setDir 160;
-	_ural setPos _spawnposition;
+	 private _dir = _position getDir [worldSize/2, worldsize/2];
+	_ural setDir _dir;
+	_ural setPos _position;
 
 	private _minePositions = [
 		[0.25415,2.76086,-1.17686],

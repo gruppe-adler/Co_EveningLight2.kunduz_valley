@@ -94,24 +94,6 @@ if (isServer) then {
     }, true, [], true] call CBA_fnc_addClassEventHandler;
 
 
-    [{
-        dayTime < 19.5
-    },{
-        setTimeMultiplier 1;
-    }] call CBA_fnc_waitUntilAndExecute;
-
-    [{
-        dayTime > 19.5
-    },{
-        setTimeMultiplier 6;
-        setApertureNew [2.6, 5, 10, 1];
-    }] call CBA_fnc_waitUntilAndExecute;
-
-    [{
-        dayTime > 23.5
-    },{
-        setTimeMultiplier 1;
-    }] call CBA_fnc_waitUntilAndExecute;
 
 
     ["missionControl_curatorInfo", {

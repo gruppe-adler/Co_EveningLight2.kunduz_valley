@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3534;
+		nextID=3545;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=475;
+		nextID=496;
 	};
 	class Camera
 	{
-		pos[]={3281.2148,158.94891,6717.9277};
-		dir[]={0.37774757,-0.34804517,0.85806918};
-		up[]={0.14025936,0.93744177,0.31860638};
-		aside[]={0.91529053,1.9378494e-006,-0.40293297};
+		pos[]={1446.5597,48.400993,8476.1836};
+		dir[]={-0.74447447,-0.66491342,0.060796604};
+		up[]={-0.66271102,0.7469117,0.054119885};
+		aside[]={0.081396259,-1.0562144e-007,0.99669957};
 	};
 };
 binarizationWanted=0;
@@ -5019,7 +5019,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=420;
+		items=422;
 		class Item0
 		{
 			dataType="Layer";
@@ -5094,7 +5094,7 @@ class Mission
 			name="Template: Spielereinheiten";
 			class Entities
 			{
-				items=18;
+				items=19;
 				class Item0
 				{
 					dataType="Logic";
@@ -7184,9 +7184,279 @@ class Mission
 						nAttributes=1;
 					};
 				};
+				class Item18
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=4;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1434.2111,34.951439,8477.3613};
+							};
+							side="West";
+							flags=7;
+							class Attributes
+							{
+								description="Truppführer@Reserve";
+								isPlayable=1;
+							};
+							id=3541;
+							type="B_Soldier_TL_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male07ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1.01;
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1432.8179,34.951439,8474.5801};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Schütze LMG";
+								isPlayable=1;
+							};
+							id=3542;
+							type="B_soldier_AR_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male09ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0.98000002;
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1436.0588,34.951439,8474.8125};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Schütze LMG Ass.";
+								isPlayable=1;
+							};
+							id=3543;
+							type="B_soldier_AAR_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male03ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1.02;
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1438.0886,34.951439,8474.8809};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								description="Schütze";
+								isPlayable=1;
+							};
+							id=3544;
+							type="B_Soldier_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male01ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1.05;
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+					};
+					class Attributes
+					{
+					};
+					id=3540;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
 			};
 			id=729;
-			atlOffset=5.2501411;
+			atlOffset=-0.12675858;
 		};
 		class Item2
 		{
@@ -9466,6 +9736,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				dynamicSimulation=1;
 			};
 			id=2842;
 			type="jbad_Wall_L_2m5";
@@ -9824,6 +10095,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				dynamicSimulation=1;
 			};
 			id=2864;
 			type="jbad_wall_L_gate";
@@ -10571,12 +10843,13 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1428.9694,35.585571,8510.1709};
-				angles[]={0,3.8949976,0};
+				angles[]={0,3.894999,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				dynamicSimulation=1;
 			};
 			id=2931;
 			type="StorageBladder_02_water_sand_F";
@@ -13594,6 +13867,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				dynamicSimulation=1;
 			};
 			id=3173;
 			type="jbad_wall_L_gate";
@@ -20646,6 +20920,162 @@ class Mission
 			id=3533;
 			type="Land_PenBlack_F";
 			atlOffset=0.71999931;
+		};
+		class Item420
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.719,34.951439,8468.4023};
+						angles[]={0,1.246392,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="this setvariable [""ace_map_hideBlueForceMarker"", true];";
+						description="OPZ@Zeus";
+						isPlayable=1;
+						aiRadarUsage=544042752;
+					};
+					id=3535;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1403.474,34.951439,8469.7383};
+						angles[]={0,1.246392,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setvariable [""ace_map_hideBlueForceMarker"", true];";
+						description="OPZ-Assi@Zeus";
+						isPlayable=1;
+						aiRadarUsage=544042752;
+					};
+					id=3537;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=3538;
+		};
+		class Item421
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1415.7946,35.589573,8492.1396};
+				angles[]={0,3.894999,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				dynamicSimulation=1;
+			};
+			id=3539;
+			type="StorageBladder_02_water_sand_F";
 		};
 	};
 	class Connections
