@@ -1,4 +1,4 @@
-
+/*
 private _logics = entities "Logic";
 private _syncHelpers = [];
 
@@ -13,3 +13,5 @@ private _syncHelpers = [];
 	_clusters params [["_object1", objNull], ["_object2", objNull]];
 	[_object1, _object2] call grad_sr_fnc_powerline_createPowerline;
 } forEach _syncHelpers;
+
+*/

@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=517;
+		nextID=538;
 	};
 	class Camera
 	{
-		pos[]={1431.0216,48.400993,8473.7852};
-		dir[]={-0.67817479,-0.73230112,-0.061768409};
-		up[]={-0.7292825,0.6809805,-0.066423334};
-		aside[]={-0.090704963,-2.4883775e-009,0.99587762};
+		pos[]={3290.6938,61.882168,6581.5986};
+		dir[]={-0.12673636,-0.69327468,0.7094447};
+		up[]={-0.12191774,0.7206732,0.68247068};
+		aside[]={0.98441637,7.0293027e-008,0.17585771};
 	};
 };
 binarizationWanted=0;
@@ -5019,7 +5019,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=422;
+		items=406;
 		class Item0
 		{
 			dataType="Layer";
@@ -16159,50 +16159,6 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3227.8181,23.85,6909.583};
-			};
-			init="this setvariable [""grad_isPowerline"", true];";
-			id=3292;
-			type="Logic";
-		};
-		class Item323
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3225.9851,23.85,6909.5474};
-			};
-			init="this setvariable [""grad_isPowerline"", true];";
-			id=3293;
-			type="Logic";
-		};
-		class Item324
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3224.0562,23.85,6907.4082};
-			};
-			init="this setvariable [""grad_isPowerline"", true];";
-			id=3294;
-			type="Logic";
-		};
-		class Item325
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3224.3489,23.85,6908.4009};
-			};
-			init="this setvariable [""grad_isPowerline"", true];";
-			id=3295;
-			type="Logic";
-		};
-		class Item326
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
 				position[]={3228.6589,23.85,6909.689};
 			};
 			id=3296;
@@ -16381,7 +16337,7 @@ class Mission
 				nAttributes=13;
 			};
 		};
-		class Item327
+		class Item323
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16580,7 +16536,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item328
+		class Item324
 		{
 			dataType="Group";
 			side="East";
@@ -16659,7 +16615,7 @@ class Mission
 			};
 			id=3310;
 		};
-		class Item329
+		class Item325
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16676,7 +16632,7 @@ class Mission
 			id=3311;
 			type="UK3CB_TKM_O_ZU23";
 		};
-		class Item330
+		class Item326
 		{
 			dataType="Marker";
 			position[]={6003.4429,10.96,6311.6582};
@@ -16685,7 +16641,7 @@ class Mission
 			type="b_hq";
 			id=3321;
 		};
-		class Item331
+		class Item327
 		{
 			dataType="Marker";
 			position[]={1443.4563,35.072372,8550.0225};
@@ -16695,7 +16651,7 @@ class Mission
 			id=3322;
 			atlOffset=7.6293945e-006;
 		};
-		class Item332
+		class Item328
 		{
 			dataType="Marker";
 			position[]={3756.8,29.16,3478.1951};
@@ -16704,7 +16660,7 @@ class Mission
 			type="b_hq";
 			id=3323;
 		};
-		class Item333
+		class Item329
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16720,7 +16676,7 @@ class Mission
 			type="Flag_CW_US";
 			atlOffset=1.9073486e-006;
 		};
-		class Item334
+		class Item330
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16736,7 +16692,7 @@ class Mission
 			type="Flag_NATO_F";
 			atlOffset=0.0011444092;
 		};
-		class Item335
+		class Item331
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16751,7 +16707,7 @@ class Mission
 			id=3327;
 			type="Flag_CW_US";
 		};
-		class Item336
+		class Item332
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16766,7 +16722,7 @@ class Mission
 			id=3328;
 			type="Flag_NATO_F";
 		};
-		class Item337
+		class Item333
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16783,7 +16739,7 @@ class Mission
 			type="rhsusf_m1025_d_m2";
 			atlOffset=8.5830688e-006;
 		};
-		class Item338
+		class Item334
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16803,7 +16759,7 @@ class Mission
 			type="rhsusf_m1151_m240_v1_usarmy_d";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item339
+		class Item335
 		{
 			dataType="Object";
 			class PositionInfo
@@ -16943,7 +16899,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item340
+		class Item336
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17083,7 +17039,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item341
+		class Item337
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17099,7 +17055,7 @@ class Mission
 			id=3389;
 			type="Land_BarGate_F";
 		};
-		class Item342
+		class Item338
 		{
 			dataType="Group";
 			side="West";
@@ -17162,7 +17118,7 @@ class Mission
 			};
 			id=3390;
 		};
-		class Item343
+		class Item339
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17178,7 +17134,7 @@ class Mission
 			id=3392;
 			type="StorageBladder_01_fuel_sand_F";
 		};
-		class Item344
+		class Item340
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17212,7 +17168,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item345
+		class Item341
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17246,7 +17202,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item346
+		class Item342
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17280,7 +17236,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item347
+		class Item343
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17314,7 +17270,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item348
+		class Item344
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17331,7 +17287,7 @@ class Mission
 			type="StorageBladder_01_fuel_sand_F";
 			atlOffset=0.035531998;
 		};
-		class Item349
+		class Item345
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17365,7 +17321,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item350
+		class Item346
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17381,7 +17337,7 @@ class Mission
 			id=3399;
 			type="HeliHCivil";
 		};
-		class Item351
+		class Item347
 		{
 			dataType="Marker";
 			position[]={7661.123,12.348,5700.6055};
@@ -17392,7 +17348,7 @@ class Mission
 			id=3400;
 			atlOffset=3.39464;
 		};
-		class Item352
+		class Item348
 		{
 			dataType="Trigger";
 			position[]={5996.2119,10.96,6250.5215};
@@ -17404,7 +17360,7 @@ class Mission
 			id=3401;
 			type="EmptyDetectorAreaR250";
 		};
-		class Item353
+		class Item349
 		{
 			dataType="Trigger";
 			position[]={3789.4321,29.160156,3454.793};
@@ -17417,7 +17373,7 @@ class Mission
 			type="EmptyDetectorAreaR250";
 			atlOffset=0.00015640259;
 		};
-		class Item354
+		class Item350
 		{
 			dataType="Marker";
 			position[]={9566.7793,35.171394,8146.6958};
@@ -17431,7 +17387,7 @@ class Mission
 			b=150;
 			id=3403;
 		};
-		class Item355
+		class Item351
 		{
 			dataType="Marker";
 			position[]={7349.8428,6.1100001,4901.083};
@@ -17445,7 +17401,7 @@ class Mission
 			id=3406;
 			atlOffset=-0.00046825409;
 		};
-		class Item356
+		class Item352
 		{
 			dataType="Marker";
 			position[]={7866.4463,13.566132,8358.834};
@@ -17456,7 +17412,7 @@ class Mission
 			id=3407;
 			atlOffset=3.39464;
 		};
-		class Item357
+		class Item353
 		{
 			dataType="Marker";
 			position[]={7795.3345,20.74464,2437.218};
@@ -17467,7 +17423,7 @@ class Mission
 			id=3408;
 			atlOffset=3.39464;
 		};
-		class Item358
+		class Item354
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17484,7 +17440,7 @@ class Mission
 			type="IEDLandBig_F";
 			atlOffset=-1.9073486e-006;
 		};
-		class Item359
+		class Item355
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17500,7 +17456,7 @@ class Mission
 			id=3410;
 			type="IEDUrbanSmall_F";
 		};
-		class Item360
+		class Item356
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17516,7 +17472,7 @@ class Mission
 			id=3411;
 			type="IEDLandSmall_F";
 		};
-		class Item361
+		class Item357
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17533,7 +17489,7 @@ class Mission
 			id=3412;
 			type="rhs_mine_m2a3b_trip";
 		};
-		class Item362
+		class Item358
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17550,7 +17506,7 @@ class Mission
 			id=3413;
 			type="rhs_mine_m2a3b_trip";
 		};
-		class Item363
+		class Item359
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17568,7 +17524,7 @@ class Mission
 			type="rhs_mine_m2a3b_trip";
 			atlOffset=5.7220459e-005;
 		};
-		class Item364
+		class Item360
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17584,7 +17540,7 @@ class Mission
 			id=3415;
 			type="rhs_mine_stockmine43_2m";
 		};
-		class Item365
+		class Item361
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17600,7 +17556,7 @@ class Mission
 			id=3416;
 			type="rhs_mine_stockmine43_2m";
 		};
-		class Item366
+		class Item362
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17617,7 +17573,7 @@ class Mission
 			type="rhs_mine_stockmine43_2m";
 			atlOffset=2.8472023;
 		};
-		class Item367
+		class Item363
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17634,7 +17590,7 @@ class Mission
 			id=3418;
 			type="rhs_mine_stockmine43_2m";
 		};
-		class Item368
+		class Item364
 		{
 			dataType="Group";
 			side="East";
@@ -17697,7 +17653,7 @@ class Mission
 			id=3419;
 			atlOffset=9.9059982;
 		};
-		class Item369
+		class Item365
 		{
 			dataType="Group";
 			side="East";
@@ -17758,7 +17714,7 @@ class Mission
 			};
 			id=3423;
 		};
-		class Item370
+		class Item366
 		{
 			dataType="Group";
 			side="East";
@@ -17820,7 +17776,7 @@ class Mission
 			};
 			id=3427;
 		};
-		class Item371
+		class Item367
 		{
 			dataType="Group";
 			side="East";
@@ -17927,7 +17883,7 @@ class Mission
 			};
 			id=3429;
 		};
-		class Item372
+		class Item368
 		{
 			dataType="Object";
 			class PositionInfo
@@ -17944,7 +17900,7 @@ class Mission
 			id=3432;
 			type="Land_PenBlack_F";
 		};
-		class Item373
+		class Item369
 		{
 			dataType="Group";
 			side="East";
@@ -18005,7 +17961,7 @@ class Mission
 			};
 			id=3433;
 		};
-		class Item374
+		class Item370
 		{
 			dataType="Group";
 			side="East";
@@ -18191,7 +18147,7 @@ class Mission
 			};
 			id=3436;
 		};
-		class Item375
+		class Item371
 		{
 			dataType="Group";
 			side="East";
@@ -18285,7 +18241,7 @@ class Mission
 			};
 			id=3449;
 		};
-		class Item376
+		class Item372
 		{
 			dataType="Group";
 			side="East";
@@ -18379,7 +18335,7 @@ class Mission
 			};
 			id=3455;
 		};
-		class Item377
+		class Item373
 		{
 			dataType="Group";
 			side="East";
@@ -18473,7 +18429,7 @@ class Mission
 			};
 			id=3461;
 		};
-		class Item378
+		class Item374
 		{
 			dataType="Group";
 			side="East";
@@ -18567,7 +18523,7 @@ class Mission
 			};
 			id=3467;
 		};
-		class Item379
+		class Item375
 		{
 			dataType="Group";
 			side="East";
@@ -18661,7 +18617,7 @@ class Mission
 			};
 			id=3473;
 		};
-		class Item380
+		class Item376
 		{
 			dataType="Group";
 			side="East";
@@ -18755,7 +18711,7 @@ class Mission
 			};
 			id=3479;
 		};
-		class Item381
+		class Item377
 		{
 			dataType="Group";
 			side="East";
@@ -18849,7 +18805,7 @@ class Mission
 			};
 			id=3485;
 		};
-		class Item382
+		class Item378
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18866,7 +18822,7 @@ class Mission
 			id=3491;
 			type="jbad_wallend";
 		};
-		class Item383
+		class Item379
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18883,7 +18839,7 @@ class Mission
 			id=3492;
 			type="jbad_wallend";
 		};
-		class Item384
+		class Item380
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18900,7 +18856,7 @@ class Mission
 			id=3493;
 			type="jbad_wallend";
 		};
-		class Item385
+		class Item381
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18917,7 +18873,7 @@ class Mission
 			id=3494;
 			type="jbad_wallend";
 		};
-		class Item386
+		class Item382
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18935,7 +18891,7 @@ class Mission
 			type="jbad_wallend";
 			atlOffset=3.8146973e-006;
 		};
-		class Item387
+		class Item383
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18952,7 +18908,7 @@ class Mission
 			id=3496;
 			type="jbad_wallend";
 		};
-		class Item388
+		class Item384
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18970,7 +18926,7 @@ class Mission
 			type="jbad_wallend";
 			atlOffset=3.8146973e-006;
 		};
-		class Item389
+		class Item385
 		{
 			dataType="Object";
 			class PositionInfo
@@ -18988,7 +18944,7 @@ class Mission
 			type="jbad_wallend";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item390
+		class Item386
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19005,7 +18961,7 @@ class Mission
 			id=3499;
 			type="jbad_wallend";
 		};
-		class Item391
+		class Item387
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19023,7 +18979,7 @@ class Mission
 			type="jbad_wallend";
 			atlOffset=-3.8146973e-006;
 		};
-		class Item392
+		class Item388
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19041,7 +18997,7 @@ class Mission
 			type="jbad_wallend";
 			atlOffset=3.8146973e-006;
 		};
-		class Item393
+		class Item389
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19058,7 +19014,7 @@ class Mission
 			id=3502;
 			type="jbad_wallend";
 		};
-		class Item394
+		class Item390
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19075,7 +19031,7 @@ class Mission
 			id=3503;
 			type="jbad_wallend";
 		};
-		class Item395
+		class Item391
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19092,7 +19048,7 @@ class Mission
 			id=3504;
 			type="jbad_wallend";
 		};
-		class Item396
+		class Item392
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19109,7 +19065,7 @@ class Mission
 			id=3505;
 			type="jbad_wallend";
 		};
-		class Item397
+		class Item393
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19126,7 +19082,7 @@ class Mission
 			id=3506;
 			type="jbad_wallend";
 		};
-		class Item398
+		class Item394
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19143,7 +19099,7 @@ class Mission
 			type="Land_fort_artillery_nest_EP1";
 			atlOffset=0.016242981;
 		};
-		class Item399
+		class Item395
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19159,7 +19115,7 @@ class Mission
 			id=3508;
 			type="Land_fort_artillery_nest_EP1";
 		};
-		class Item400
+		class Item396
 		{
 			dataType="Group";
 			side="East";
@@ -19238,7 +19194,7 @@ class Mission
 			};
 			id=3509;
 		};
-		class Item401
+		class Item397
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19272,7 +19228,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item402
+		class Item398
 		{
 			dataType="Group";
 			side="East";
@@ -19354,7 +19310,7 @@ class Mission
 			id=3513;
 			atlOffset=3.8146973e-006;
 		};
-		class Item403
+		class Item399
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19371,7 +19327,7 @@ class Mission
 			type="UK3CB_TKM_O_ZU23";
 			atlOffset=3.8146973e-006;
 		};
-		class Item404
+		class Item400
 		{
 			dataType="Group";
 			side="East";
@@ -19424,7 +19380,7 @@ class Mission
 			id=3517;
 			atlOffset=4.196167e-005;
 		};
-		class Item405
+		class Item401
 		{
 			dataType="Object";
 			class PositionInfo
@@ -19442,1453 +19398,7 @@ class Mission
 			type="UK3CB_MEI_O_PKM_nest_des";
 			atlOffset=4.196167e-005;
 		};
-		class Item406
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3301.3088,14.786441,6620.8149};
-				angles[]={6.2792487,2.5600665,6.2700381};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=3520;
-			type="Land_Laptop_03_sand_F_AE3";
-			atlOffset=0.31982327;
-		};
-		class Item407
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3300.1013,14.635464,6620.9238};
-			};
-			id=3521;
-			type="AE3_AddUser";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_ModuleUserlist_Password1";
-					expression="_this setVariable ['AE3_ModuleUserlist_Password',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="1337";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_ModuleUserlist_User1";
-					expression="_this setVariable ['AE3_ModuleUserlist_User',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="analadmin";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item408
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3300.4653,14.631115,6621.0352};
-			};
-			id=3522;
-			type="AE3_AddFile";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddFile_Owner";
-					expression="_this setVariable ['AE3_Module_AddFile_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddFile_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddFile_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddFile_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddFile_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddFile_Path";
-					expression="_this setVariable ['AE3_Module_AddFile_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret/note.txt";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddFile_IsCode";
-					expression="_this setVariable ['AE3_Module_AddFile_IsCode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddFile_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="AE3_Module_AddFile_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="AE3_Module_AddFile_Content";
-					expression="_this setVariable [""AE3_Module_AddFile_Content"", _value]";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Abu constantly changes positions but the last time i saw him he visited the FOB in Mugdudkhila.";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="AE3_Module_AddFile_EncryptionKey";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionKey',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="13";
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="AE3_Module_AddFile_EncryptionAlgorithm";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionAlgorithm',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="caesar";
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="AE3_Module_AddFile_IsEncrypted";
-					expression="_this setVariable ['AE3_Module_AddFile_IsEncrypted',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item409
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3300.8542,14.626733,6621.2212};
-			};
-			id=3523;
-			type="AE3_AddDir";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddDir_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddDir_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddDir_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddDir_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddDir_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddDir_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddDir_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddDir_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddDir_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddDir_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddDir_Owner";
-					expression="_this setVariable ['AE3_Module_AddDir_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddDir_Path";
-					expression="_this setVariable ['AE3_Module_AddDir_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddDir_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddDir_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=8;
-			};
-		};
-		class Item410
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3300.6553,14.628979,6621.127};
-			};
-			id=3524;
-			type="AE3_AddFile";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddFile_Owner";
-					expression="_this setVariable ['AE3_Module_AddFile_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddFile_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddFile_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddFile_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddFile_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddFile_Path";
-					expression="_this setVariable ['AE3_Module_AddFile_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret/bookmarks.txt";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddFile_IsCode";
-					expression="_this setVariable ['AE3_Module_AddFile_IsCode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddFile_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="AE3_Module_AddFile_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="AE3_Module_AddFile_Content";
-					expression="_this setVariable [""AE3_Module_AddFile_Content"", _value]";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="http://www.sexygirls.com, http://www.shavedvirgins.xxx, http://www.gruppeadler.de";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="AE3_Module_AddFile_EncryptionKey";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionKey',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="13";
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="AE3_Module_AddFile_EncryptionAlgorithm";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionAlgorithm',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="caesar";
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="AE3_Module_AddFile_IsEncrypted";
-					expression="_this setVariable ['AE3_Module_AddFile_IsEncrypted',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item411
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3300.2922,14.633249,6620.999};
-			};
-			id=3525;
-			type="AE3_AddFile";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddFile_Owner";
-					expression="_this setVariable ['AE3_Module_AddFile_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddFile_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddFile_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddFile_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddFile_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddFile_Path";
-					expression="_this setVariable ['AE3_Module_AddFile_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret/selfdestruct.bat";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddFile_IsCode";
-					expression="_this setVariable ['AE3_Module_AddFile_IsCode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddFile_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="AE3_Module_AddFile_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="AE3_Module_AddFile_Content";
-					expression="_this setVariable [""AE3_Module_AddFile_Content"", _value]";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="params[""_computer"", ""_options"", ""_commandName""];    " \n "   " \n "[_computer, [""ied_countdown"", 200]] remoteExec [""say3d"", 0, _computer];    " \n "_computer setVariable [""AE3_power_powerState"", 0, true];   " \n "   " \n "_computer setObjectTextureGlobal [1, ""data\selfdestruct.paa""];   " \n "   " \n " " \n "closeDialog 1;  " \n " " \n "   " \n "[{    " \n " ""Bo_GBU12_LGB"" createVehicle (_this);   " \n " private _rock = ""Land_BluntRock_wallH"" createVehicle [0,0,0];  " \n " _rock setPos [3236.11,6907.6,1.9];  " \n "  " \n " [  " \n "  [3261.37,6875.15,0],  " \n "  [3290.01,6846.29,0],  " \n "  [3246.89,6902.12,0]  " \n " ] remoteExec [""grad_sr_fnc_powerline_rockshower""];  " \n "}, position _computer, 65] call CBA_fnc_waitAndExecute;  " \n "  " \n "";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="AE3_Module_AddFile_EncryptionKey";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionKey',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="13";
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="AE3_Module_AddFile_EncryptionAlgorithm";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionAlgorithm',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="caesar";
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="AE3_Module_AddFile_IsEncrypted";
-					expression="_this setVariable ['AE3_Module_AddFile_IsEncrypted',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item412
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3275.1841,14.867044,6626.3125};
-				angles[]={0,2.5600665,6.2812018};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=3526;
-			type="Land_Laptop_03_sand_F_AE3";
-		};
-		class Item413
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3273.9766,14.704093,6626.4214};
-			};
-			id=3527;
-			type="AE3_AddUser";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_ModuleUserlist_Password1";
-					expression="_this setVariable ['AE3_ModuleUserlist_Password',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="1337";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_ModuleUserlist_User1";
-					expression="_this setVariable ['AE3_ModuleUserlist_User',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="analadmin";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item414
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3274.3406,14.702638,6626.5327};
-			};
-			id=3528;
-			type="AE3_AddFile";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddFile_Owner";
-					expression="_this setVariable ['AE3_Module_AddFile_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddFile_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddFile_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddFile_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddFile_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddFile_Path";
-					expression="_this setVariable ['AE3_Module_AddFile_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret/note.txt";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddFile_IsCode";
-					expression="_this setVariable ['AE3_Module_AddFile_IsCode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddFile_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="AE3_Module_AddFile_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="AE3_Module_AddFile_Content";
-					expression="_this setVariable [""AE3_Module_AddFile_Content"", _value]";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Abu constantly changes positions but the last time i saw him he visited the FOB in Mugdudkhila.";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="AE3_Module_AddFile_EncryptionKey";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionKey',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="13";
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="AE3_Module_AddFile_EncryptionAlgorithm";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionAlgorithm',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="caesar";
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="AE3_Module_AddFile_IsEncrypted";
-					expression="_this setVariable ['AE3_Module_AddFile_IsEncrypted',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item415
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3274.7295,14.701081,6626.7188};
-			};
-			id=3529;
-			type="AE3_AddDir";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddDir_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddDir_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddDir_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddDir_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddDir_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddDir_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddDir_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddDir_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddDir_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddDir_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddDir_Owner";
-					expression="_this setVariable ['AE3_Module_AddDir_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddDir_Path";
-					expression="_this setVariable ['AE3_Module_AddDir_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddDir_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddDir_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				nAttributes=8;
-			};
-		};
-		class Item416
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3274.5305,14.701878,6626.6245};
-			};
-			id=3530;
-			type="AE3_AddFile";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddFile_Owner";
-					expression="_this setVariable ['AE3_Module_AddFile_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddFile_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddFile_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddFile_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddFile_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddFile_Path";
-					expression="_this setVariable ['AE3_Module_AddFile_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret/bookmarks.txt";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddFile_IsCode";
-					expression="_this setVariable ['AE3_Module_AddFile_IsCode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddFile_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="AE3_Module_AddFile_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="AE3_Module_AddFile_Content";
-					expression="_this setVariable [""AE3_Module_AddFile_Content"", _value]";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="http://www.sexygirls.com, http://www.shavedvirgins.xxx, http://www.gruppeadler.de";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="AE3_Module_AddFile_EncryptionKey";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionKey',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="13";
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="AE3_Module_AddFile_EncryptionAlgorithm";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionAlgorithm',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="caesar";
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="AE3_Module_AddFile_IsEncrypted";
-					expression="_this setVariable ['AE3_Module_AddFile_IsEncrypted',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item417
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3274.1675,14.70333,6626.4966};
-			};
-			id=3531;
-			type="AE3_AddFile";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="AE3_Module_AddFile_Owner";
-					expression="_this setVariable ['AE3_Module_AddFile_Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="root";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="AE3_Module_AddFile_EveryoneWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="AE3_Module_AddFile_EveryoneRead";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="AE3_Module_AddFile_OwnerWrite";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerWrite',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="AE3_Module_AddFile_OwnerExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="AE3_Module_AddFile_Path";
-					expression="_this setVariable ['AE3_Module_AddFile_Path',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="/topsecret/selfdestruct.bat";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="AE3_Module_AddFile_IsCode";
-					expression="_this setVariable ['AE3_Module_AddFile_IsCode',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="AE3_Module_AddFile_EveryoneExecute";
-					expression="_this setVariable ['AE3_Module_AddFile_EveryoneExecute',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="AE3_Module_AddFile_OwnerRead";
-					expression="_this setVariable ['AE3_Module_AddFile_OwnerRead',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="AE3_Module_AddFile_Content";
-					expression="_this setVariable [""AE3_Module_AddFile_Content"", _value]";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="params[""_computer"", ""_options"", ""_commandName""];    " \n "   " \n "[_computer, [""ied_countdown"", 200]] remoteExec [""say3d"", 0, _computer];    " \n "_computer setVariable [""AE3_power_powerState"", 0, true];   " \n "   " \n "_computer setObjectTextureGlobal [1, ""data\selfdestruct.paa""];   " \n "   " \n " " \n "closeDialog 1;  " \n " " \n "   " \n "[{    " \n " ""Bo_GBU12_LGB"" createVehicle (_this);   " \n " private _rock = ""Land_BluntRock_wallH"" createVehicle [0,0,0];  " \n " _rock setPos [3236.11,6907.6,1.9];  " \n "  " \n " [  " \n "  [3261.37,6875.15,0],  " \n "  [3290.01,6846.29,0],  " \n "  [3246.89,6902.12,0]  " \n " ] remoteExec [""grad_sr_fnc_powerline_rockshower""];  " \n "}, position _computer, 65] call CBA_fnc_waitAndExecute;  " \n "  " \n "";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="AE3_Module_AddFile_EncryptionKey";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionKey',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="13";
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="AE3_Module_AddFile_EncryptionAlgorithm";
-					expression="_this setVariable ['AE3_Module_AddFile_EncryptionAlgorithm',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="caesar";
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="AE3_Module_AddFile_IsEncrypted";
-					expression="_this setVariable ['AE3_Module_AddFile_IsEncrypted',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				nAttributes=13;
-			};
-		};
-		class Item418
+		class Item402
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20905,7 +19415,7 @@ class Mission
 			type="Land_PenBlack_F";
 			atlOffset=0.00018310547;
 		};
-		class Item419
+		class Item403
 		{
 			dataType="Object";
 			class PositionInfo
@@ -20921,7 +19431,7 @@ class Mission
 			type="Land_PenBlack_F";
 			atlOffset=0.71999931;
 		};
-		class Item420
+		class Item404
 		{
 			dataType="Group";
 			side="West";
@@ -21060,7 +19570,7 @@ class Mission
 			};
 			id=3538;
 		};
-		class Item421
+		class Item405
 		{
 			dataType="Object";
 			class PositionInfo
@@ -21082,11 +19592,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=63;
+			nextID=45;
 		};
 		class Links
 		{
-			items=63;
+			items=45;
 			class Item0
 			{
 				linkID=0;
@@ -21510,8 +20020,8 @@ class Mission
 			class Item42
 			{
 				linkID=42;
-				item0=3292;
-				item1=2975;
+				item0=3296;
+				item1=3251;
 				class CustomData
 				{
 					type="Sync";
@@ -21520,8 +20030,8 @@ class Mission
 			class Item43
 			{
 				linkID=43;
-				item0=3292;
-				item1=2971;
+				item0=3401;
+				item1=3156;
 				class CustomData
 				{
 					type="Sync";
@@ -21530,188 +20040,8 @@ class Mission
 			class Item44
 			{
 				linkID=44;
-				item0=3293;
-				item1=3251;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item45
-			{
-				linkID=45;
-				item0=3293;
-				item1=2975;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item46
-			{
-				linkID=46;
-				item0=3294;
-				item1=2963;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item47
-			{
-				linkID=47;
-				item0=3294;
-				item1=2976;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item48
-			{
-				linkID=48;
-				item0=3295;
-				item1=2976;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item49
-			{
-				linkID=49;
-				item0=3295;
-				item1=2975;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item50
-			{
-				linkID=50;
-				item0=3296;
-				item1=3251;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item51
-			{
-				linkID=51;
-				item0=3401;
-				item1=3156;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item52
-			{
-				linkID=52;
 				item0=3402;
 				item1=3156;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item53
-			{
-				linkID=53;
-				item0=3523;
-				item1=3520;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item54
-			{
-				linkID=54;
-				item0=3524;
-				item1=3520;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item55
-			{
-				linkID=55;
-				item0=3525;
-				item1=3520;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item56
-			{
-				linkID=56;
-				item0=3521;
-				item1=3520;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item57
-			{
-				linkID=57;
-				item0=3522;
-				item1=3520;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item58
-			{
-				linkID=58;
-				item0=3529;
-				item1=3526;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item59
-			{
-				linkID=59;
-				item0=3530;
-				item1=3526;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item60
-			{
-				linkID=60;
-				item0=3531;
-				item1=3526;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item61
-			{
-				linkID=61;
-				item0=3527;
-				item1=3526;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item62
-			{
-				linkID=62;
-				item0=3528;
-				item1=3526;
 				class CustomData
 				{
 					type="Sync";
